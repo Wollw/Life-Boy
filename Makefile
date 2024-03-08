@@ -14,7 +14,7 @@ LCC = $(GBDK_HOME)bin/lcc
 LCCFLAGS += -Wa-l -Wl-m -Wl-yt3 -Wl-yo4 -Wl-ya4
 
 # You can set the name of the .gb ROM file here
-PROJECTNAME    = Life Boy
+PROJECTNAME    = Life-Boy
 
 BINS	    = $(PROJECTNAME).gb
 CSOURCES   := $(wildcard *.c)
